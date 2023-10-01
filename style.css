@@ -1,0 +1,536 @@
+@font-face{
+    font-family: "Work Sans";
+    src: url(./WorkSans-Regular.ttf);
+    font-family: Space Mono;
+    src: url(./SpaceMono-Regular.ttf);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background: hsla(0, 0%, 17%, 1) !important;
+}
+.row1{
+    padding: 20px 30px !important;
+}
+.a2{
+    color: #FFF !important;
+    font-family: "Work Sans" !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    line-height: 140% !important; /* 22.4px */
+    padding: 20px 40px !important;
+}
+.navbtn{
+    color: #FFF;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    border-radius: 20px;
+    background: var(--call-to-action, #A259FF); 
+    width: 152px;
+    height: 60px;
+    border: 1px solid #A259FF;
+}
+.h1block1{
+    color: var(--white, #FFF);
+    font-family: "Work Sans";
+    font-size: 67px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; /* 73.7px */
+    text-transform: capitalize;
+}
+.pblock1_{
+    color: var(--white, #FFF);
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 35.2px */
+    text-transform: capitalize;
+}
+.btnblock1{
+    color: #FFF;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    border-radius: 20px;
+    background: hsla(266, 100%, 67%, 1); 
+    width: 224px;
+    height: 60px;
+    border: 1px solid hsla(266, 100%, 67%, 1);
+}
+.h4block1{
+    color: var(--white, #FFF);
+    font-family: Space Mono;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 39.2px */
+    text-transform: capitalize;
+}
+.pblock1{
+    color: var(--white, #FFF);
+    font-family: "Work Sans" !important;
+    font-size: 23.99px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 38.384px */
+    text-transform: capitalize;
+}
+.avatar{
+     width: 600px !important;
+     height: 550px;
+}
+.h3block2{
+    color: var(--white, #FFF);
+    font-family:"Work Sans";
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 45.6px */
+    text-transform: capitalize;
+}
+.card1{
+    
+    height: 525px;
+    border: none !important;
+    background-color: #2B2B2B !important;
+}
+.h5card{
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 30.8px */
+    text-transform: capitalize;
+}
+.pcard{
+    color: #FFF;
+    font-family:"Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+.card2{
+    width: 240px !important;
+    height: 238px !important;
+    background-color: hsla(0, 0%, 23%, 1) !important;
+    border-radius: 20px !important;
+}
+.dcard{
+    width: 30px;
+    height: 30px;
+    background-color: #2B2B2B;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.pnumb{
+    color: var(--caption-label-text, #858584);
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+.imgcard2{
+       width: 120px !important;
+       height: 120px !important;
+}
+.btnblock2{
+    color: #FFF;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    border-radius: 20px;
+    background-color: #2B2B2B; 
+    width: 247px;
+    height: 60px;
+    border: 2px solid hsla(266, 100%, 67%, 1);
+    margin-left: -15px;
+    margin-top: -25px;
+}
+.card2mob{
+    height: 100px !important;
+    width: 315px !important;
+    background-color: hsla(0, 0%, 23%, 1) !important;
+    border-radius: 20px !important;
+}
+.imgmob{
+    width: 60px;
+    height: 60px;
+}
+.card3{
+    width: 242px !important;
+    height: 316px !important;
+    background: #3B3B3B !important;
+    border-radius: 20px !important;
+    position: relative;
+    margin-top: 30px;
+}
+.dabsol{
+    position: absolute;
+    z-index: 3;
+    height: 240px !important;
+}
+.imgblur{
+    filter: blur(5px);
+}
+.btnblock4{
+    color: #FFF;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    border-radius: 20px;
+    background-color: #2B2B2B; 
+    width: 187px;
+    height: 60px;
+    border: 2px solid hsla(266, 100%, 67%, 1);
+    margin-top: -25px;
+    margin-left: 40px;
+}
+.card4{
+    width: 330px !important;
+    height: 469px !important;
+    background: #3B3B3B !important;
+    border-radius: 20px !important;
+}
+.pcard4{
+    color: #858584;
+    font-family: Space Mono;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 13.2px */
+}
+.h6card4{
+    color: var(--white, #FFF) !important;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+.divmushroom{
+    height: 640px !important;
+    background-image: url(./NFT_Highlight.png) !important;
+    background-size: cover !important;
+}
+.mushroom{
+    height: 400px !important;
+}
+.mushroom1{
+    height: 240px !important;
+}
+.btnmshroom{
+    color: #FFF !important;
+    text-align: center !important;
+    font-family: "Work Sans" !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    line-height: 140% !important; /* 22.4px */
+    border-radius: 20px !important;
+    background-color: #3B3B3B !important; 
+    width: 151px !important;
+    height: 44px !important;
+    border: 1px solid #3B3B3B !important;
+}
+.h2mushroom{
+    color: #FFF !important;
+    font-family: "Work Sans" !important;
+    font-size: 51px !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    line-height: 110% !important; /* 56.1px */
+    text-transform: capitalize !important;
+}
+.btnmsh{
+    color: var(--background, #2B2B2B);
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    border-radius: 20px;
+    background-color: hsla(0, 0%, 100%, 1); 
+    width: 198px;
+    height: 60px;
+    border: 1px solid hsla(0, 0%, 100%, 1);
+}
+.clock{
+   width: 295px;
+   height: 147px;
+   border-radius: 20px;
+   background-color: hsla(0, 0%, 23%, 0.5);
+}
+.pclock{
+    color: var(--text, #FFF);
+    font-family: Space Mono;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 13.2px */
+}
+.h3clock{
+    color: var(--text, #FFF);
+    font-family: Space Mono;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 39.2px */
+    text-transform: capitalize;
+ }
+ .card5{
+    width: 330px !important;
+    height: 439px !important;
+    background-color: hsla(0, 0%, 23%, 1) !important;
+    border-radius: 20px !important;
+ }
+ .imgcard5{
+    width: 250px;
+    height: 250px;
+ }
+ .space{
+    background: hsla(0, 0%, 23%, 1);
+    border-radius: 20px;
+    height: 430px;
+    margin: 0 auto !important;
+    width: 1050px !important;
+ }
+ .block5, .divhow, .divnft, .dblock4, .dblur, .dblur1, .dbrows, .dtop4, .dtop3, .dtop2, .dtop1, .dblock1, .dtrend, .dfirst, .dfooter, .last{
+    width: 1060px !important;
+ }
+ .imgspace{
+    width: 425px !important;
+    height: 310px !important;
+ }
+ .input-group{
+    border-radius: 20px !important;
+    width: 425px !important;
+    height: 60px !important;
+    background-color: hsla(0, 0%, 100%, 1) !important;
+ }
+ .form-control{ 
+    width: 215px !important;
+    height: 60px !important;
+    background-color: hsla(0, 0%, 100%, 1) !important;
+    border: 1px solid hsla(0, 0%, 100%, 1) !important;
+    color: var(--background, #2B2B2B) !important;
+    font-family: "Work Sans" !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 140% !important; /* 22.4px */
+    border-radius: 20px !important;
+}
+.btninp{
+    color: #FFF !important;
+    text-align: center !important;
+    font-family: "Work Sans" !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    line-height: 140% !important; /* 22.4px */
+    width: 180px !important;
+    height: 60px !important;
+    background-color: hsla(266, 100%, 67%, 1) !important;
+    border: 1px solid hsla(266, 100%, 67%, 1) !important;
+    border-radius: 20px !important;
+}
+.btninp1{
+    color: #FFF !important;
+    text-align: center !important;
+    font-family: "Work Sans" !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    line-height: 140% !important; /* 22.4px */
+    width: 315px !important;
+    height: 46px !important;
+    background-color: hsla(266, 100%, 67%, 1) !important;
+    border: 1px solid hsla(266, 100%, 67%, 1) !important;
+    border-radius: 20px !important;
+}
+ .fluid3{
+    background-color: hsla(0, 0%, 23%, 1) !important;
+    height: 334px !important;
+ }
+ .pfooter{
+    color: #CCC;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+ }
+ .dfooter{
+    border-bottom: 1px solid hsla(60, 0%, 52%, 1) !important;
+ }
+ .afooter{
+    font-family: Space Mono !important;
+    font-size: 22px !important;
+    font-weight: 700 !important;
+    line-height: 35px !important;
+    letter-spacing: 0em !important;
+    text-decoration: none !important;
+    color: #FFF !important;
+}
+.plast{
+    color: #CCC;
+    font-family: "Work Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 13.2px */
+}
+@media screen and (max-width:768px) {
+    .row1{
+        padding: 15px 30px !important;
+    }
+    .h1block1{
+        font-size: 28px;
+        line-height: 39px;
+    }
+    .pblock1_{
+        font-size: 17px;
+        line-height: 22px;
+    }
+    .avatar{
+        width: 375px !important;
+        height: 335px;
+    }
+    .btnblock1{
+        width: 315px !important;
+        height: 60px;
+    }
+    .h4block1{
+        font-size: 22px;
+        line-height: 35px;
+        padding-left: 20px;
+    }
+    .pblock1{
+        font-size: 16px;
+        line-height: 22px;
+        padding-left: 20px;
+    }
+    .h3block2{
+        font-size: 28px;
+        line-height: 38px;
+    }
+    
+    .dcard{
+        position: absolute;
+        bottom: 57px;
+        right: 40px;
+    }
+    .btnblock2{
+        width: 315px;
+    }
+    .card3{
+        width: 147.5px !important;
+        height: 223px !important ;
+        margin-top: 0 !important;
+   }
+   .btnblock4{
+    width: 315px;
+   }
+   .imgblur{
+    width: 147.5px !important;
+   }
+   .dabsol{
+    height: 142px !important;
+   }
+   .imgabs{
+    width: 80px !important;
+    height: 80px !important;
+   }
+   .h5card{
+    font-size: 16px !important;
+    line-height: 22.4px !important;
+   }
+   .card4{
+    width: 315px !important;
+    height: 430px !important;
+   }
+   .h6card{
+    font-size: 12px;
+    line-height: 13.2px;
+   }
+   .divmushroom{
+    height: 593px !important;
+    background-image: url(./NFT_Highlight_Mobile.png) !important;
+    width: 100% !important;
+   }
+   .btnmshroom{
+    margin-top: 140px;
+   }
+   .clock{
+    margin-top: 20px;
+    width: 315px;
+   }
+   .btnmsh{
+    width: 315px;
+   }
+   .card5{
+    width: 315px !important;
+    height: 157px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+   }
+   .imgcard5{
+    width: 100px;
+    height: 100px;
+   }
+   .pcard{
+    font-size: 12px !important;
+    line-height: 14.8px !important;
+   }
+   .block5, .divhow, .divnft, .dblock4, .dblur, .dblur1, .dbrows, .dtop4, .dtop3, .dtop2, .dtop1, .dblock1, .dtrend, .dfirst, .dmob1, 
+   .dmob2, .spacemob, .dfooter, .last, .dbtn{
+    width: 380px !important;
+   }
+   .imgspace{
+    width: 315px !important;
+    height: 255px !important;
+   }
+   .form-control{
+    width: 315px !important;
+    height: 46px !important;
+   }
+   .fluid3{
+    height: 876px !important;
+   }
+   .afooter{
+    font-size: 20px !important;
+   }
+   .dfooter{
+    height: 820px !important;
+   }
+   .btnblock4{
+    margin-left: 0 !important;
+   }
+}
